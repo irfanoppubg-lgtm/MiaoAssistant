@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.miao.assistant">
+<manifest package="com.miao.assistant">
 
-    <application
-        android:allowBackup="true"
-        android:label="🐱 喵喵助手"
-        android:supportsRtl="true">
-
-        <meta-data
-            android:name="xposedmodule"
-            android:value="true" />
-
-        <meta-data
-            android:name="xposeddescription"
-            android:value="🐱 喵喵助手 - 人称替换 + 语气软化 + 随机颜文字 + 娱乐彩蛋" />
-
-        <meta-data
-            android:name="xposedminversion"
-            android:value="93" />
-
+    <application android:label="喵喵助手">
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposeddescription" android:value="喵喵助手" />
+        <meta-data android:name="xposedminversion" android:value="93" />
     </application>
 
 </manifest>
