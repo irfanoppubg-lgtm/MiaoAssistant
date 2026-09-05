@@ -10,12 +10,15 @@
         <meta-data
             android:name="xposedmodule"
             android:value="true" />
+
         <meta-data
             android:name="xposeddescription"
-            android:value="🐱 喵喵助手" />
+            android:value="🐱 喵喵助手 - 人称替换 + 语气软化 + 随机颜文字 + 娱乐彩蛋" />
+
         <meta-data
             android:name="xposedminversion"
             android:value="93" />
 
     </application>
+
 </manifest>
